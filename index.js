@@ -1,7 +1,7 @@
 const mysql = require("mysql2");
 const express = require("express");
 const app = express();
-const port = 8080;
+const port = 6060;
 const path = require("path");
 const methodoverride = require("method-override");
 const { v4: uuidv4 } = require("uuid");
